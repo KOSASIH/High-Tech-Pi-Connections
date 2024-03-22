@@ -20,9 +20,24 @@ Here's an example of how to set up and configure the Git repository on a Raspber
 
 The following is an example Nginx configuration file for High-Tech-Pi-Connections Git repository:
 
+---
 
+server {
+    listen       80;
+    server_name  localhost;
+    root /usr/share/gitweb;
+    index gitweb.cgi;
 
+    location / {
+            include fastcgi_params;
+            gzip off;
+            fastcgi_param   SCRIPT_FILENAME  /usr/share/gitweb/gitweb.cgi;
+            fastcgi_param   GITWEB_CONFIG  /etc/gitweb.conf;
+            fastcgi_pass    unix:/var/run/fcgiwrap.sock;
+    }
+}
 
+---
 
 Ensure that theGit repository is configured and accessible through a web browser so that users can easily view and interact with the project's source code.
 

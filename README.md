@@ -1,3 +1,7 @@
+
+
+![Static Badge](https://img.shields.io/badge/High-Tech-green)
+
 # High-Tech-Pi-Connections
 High-Tech-Pi-Connections is an innovative project that focuses on developing cutting-edge high-tech systems connected to the Pi Network. By harnessing the power of collective intelligence and advanced technologies, this project aims to create smarter groups of people and computers working together to solve complex problems and make better decisions. With a focus on artificial intelligence, machine learning, and data science, High-Tech-Pi-Connections seeks to improve corporate strategic planning, product design, predictive modeling, and more, while ensuring a smooth transition for displaced workers during the automation process.
 
